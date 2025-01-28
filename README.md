@@ -20,8 +20,8 @@ This project scrapes movie information from IMDb based on a specified genre and 
 ## Setup Instructions
 
 1. Clone this repository:\
-`git clone <repo-url>`\
-`cd <repo-directory>`
+`git clone https://github.com/yogeshBsht/IMDbScraper.git`\
+`cd IMDbScraper/`
 
 2. Install python.\
 Check the installed python version: `python --version`
@@ -33,7 +33,6 @@ Check the installed python version: `python --version`
 `pip install -r requirements.txt`
 
 3. Set up the database:\
-`python manage.py makemigrations`\
 `python manage.py migrate`
 
 4. Run the scraper:
