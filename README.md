@@ -281,3 +281,11 @@ curl --location --request GET 'http://localhost:8000/movies/'
 1. Enable venv: `source venv/bin/activate`
 2. Export django settings: `export DJANGO_SETTINGS_MODULE=imdb_scraper.settings`
 3. Run the tests: `pytest`
+
+## Disclaimer
+
+This project scrapes data from IMDb, which may violate its terms of service. The author does not claim any affiliation with IMDb and is not responsible for any misuse of the project. Use this project responsibly and only for personal or educational purposes. Ensure compliance with applicable laws and the website's terms before using.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
