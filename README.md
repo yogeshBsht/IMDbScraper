@@ -66,13 +66,15 @@ curl --location --request GET 'http://localhost:8000/movies/Distant/'
 - **Body**:
 ```json
 {
-    "title": "Movie Title",
-    "release_year": 2023,
-    "imdb_rating": 8.5,
-    "cast": "Actor A, Actor B",
-    "plot_summary": "A brief summary of the movie.",
-    "duration": "120 min",
-    "category": "Drama"
+    "id": 16,
+    "title": "Distant",
+    "release_year": "2024",
+    "duration": "1h 27m",
+    "category": "PG-13",
+    "imdb_rating": 5.7,
+    "director": null,
+    "cast": "Naomi Scott and Anthony Ramos",
+    "plot_summary": "It follows an asteroid miner who, after crash-landing on an alien planet, must make his way across the harsh terrain, running out of oxygen, hunted by strange creatures, to the only other survivor."
 }
 ```
 **Response (Failure):**
@@ -97,7 +99,7 @@ This endpoint creates a new movie entry with the provided details.
     "release_year": "1994",
     "duration": "154 min",
     "category": "A",
-    "imdb_rating": 8.9,
+    "imdb_rating": 9.0,
     "director": "Quentin Tarantino",
     "cast": "John Travolta, Uma Thurman, Samuel L. Jackson",
     "plot_summary": "The lives of two mob hitmen, a boxer, a gangster, and his wife intertwine in four tales of violence and redemption."
@@ -113,7 +115,7 @@ curl --location --request POST 'http://localhost:8000/movies/pulp fiction/' \
     "release_year": "1994",
     "duration": "154 min",
     "category": "A",
-    "imdb_rating": 8.9,
+    "imdb_rating": 9.0,
     "director": "Quentin Tarantino",
     "cast": "John Travolta, Uma Thurman, Samuel L. Jackson",
     "plot_summary": "The lives of two mob hitmen, a boxer, a gangster, and his wife intertwine in four tales of violence and redemption."
@@ -130,7 +132,7 @@ curl --location --request POST 'http://localhost:8000/movies/pulp fiction/' \
     "release_year": "1994",
     "duration": "154 min",
     "category": "A",
-    "imdb_rating": 8.9,
+    "imdb_rating": 9.0,
     "director": "Quentin Tarantino",
     "cast": "John Travolta, Uma Thurman, Samuel L. Jackson",
     "plot_summary": "The lives of two mob hitmen, a boxer, a gangster, and his wife intertwine in four tales of violence and redemption."
